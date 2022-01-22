@@ -1,0 +1,61 @@
+"Phrases"
+{
+	"Folder Create Error"
+	{
+		"en"			"The folder 'addons/sourcemod/logs/connect_disconnect' could not be created automatically. Please manually create this folder and run the plugin again."
+		"tr"			"'addons/sourcemod/logs/connect_disconnect' klasörü otomatik olarak oluşturulamadı. Lütfen bu klasörü manuel olarak oluşturup eklentiyi tekrardan çalıştırın."
+	}
+
+	"Folder Open Error"
+	{
+		"en"			"Could not open folder 'addons/sourcemod/logs/connect_disconnect'. So the old login records could not be deleted."
+		"tr"			"'addons/sourcemod/logs/connect_disconnect' klasörü açılamadı. Bu yüzden eski giriş kayıtları silinemedi."
+	}
+
+    "File Delete"
+    {
+        "#format" 		"{1:s}"
+		"en"			"{1} --> The log file has been deleted because its date is older than the specified time."
+		"tr"			"{1} --> Log dosyası tarihi belirtilen zamandan eski olduğu için silindi."
+	}
+
+    "File Delete Error"
+    {
+        "#format" 		"{1:s}"
+		"en"			"{1} --> The log file could not be deleted due to an unexpected error."
+		"tr"			"{1} --> Log dosyası beklenmedik bir hata nedeni ile silinemedi."
+	}
+
+    "Map Change"
+    {
+        "#format" 		"{1:s}{2:s}"
+		"en"			"\n\n{1} --> The map has been changed to '{2}'.\n"
+		"tr"			"\n\n{1} --> Harita '{2}' olarak değiştirildi.\n"
+	}
+
+    "Unknown Country"
+	{
+		"en"			"Unknown Country"
+		"tr"			"Bilinmeyen Ülke"
+	}
+
+    "Unknown IP"
+	{
+		"en"			"Unknown IP"
+		"tr"			"Bilinmeyen IP"
+	}
+
+    "Connect Log"
+    {
+        "#format" 		"{1:s}{2:L}{3:s}{4:s}"
+		"en"			"{1} --> {2} <{3}> CONNECTED from <{4}>."
+		"tr"			"{1} --> {2} <{3}> <{4}> üzerinden BAĞLANDI."
+	}
+
+    "Disconnect Log"
+    {
+        "#format" 		"{1:s}{2:L}{3:s}{4:s}{5:d}{6:s}"
+		"en"			"{1} --> {2} <{3}> {5} minutes later DISCONNECT from <{4}>. <{6}>"
+		"tr"			"{1} --> {2} <{3}> {5} dakika sonra <{4}> üzerinden olan BAĞLANTISI KESİLDİ. <{6}>"
+	}
+}
