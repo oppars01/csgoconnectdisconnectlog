@@ -3,4 +3,4 @@
 
 > LOG FİLE
 
-![LOG FİLE](/image/LOG.PNG)
+![LOG FİLE](/image/LOGFILE.PNG)
